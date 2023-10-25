@@ -1,0 +1,80 @@
+#read me
+
+So rudra implemented this project, and it's basic learning for mototko language as it's used for crypto chain.
+To run this project, you must first install Ubuntu and then execute several commands.
+
+If you already know how to make a motoko project, please create a new project with whatever name you want and then copy my 3,4 things like motoko file text.html text.css and then just.index js.
+Ascertain that you have installed and started the node.js
+wsl -l -v  
+wsl --list --verbose
+wsl --list --online
+wsl --install -d Ubuntu
+ wsl --install --distribution Debian
+wsl --install -d Kernel
+wsl.exe --status
+wsl --install
+wsl --set-default-version 2
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+>> dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+
+
+
+
+
+
+
+In ubuntu
+
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+1st:- $ (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/rp/.bashrc
+
+2nd-  $ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+
+sudo apt-get install build-essential
+
+brew --version
+
+brew install node@20
+
+DFX_VERSION=0.9.3 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
+
+export PATH =$PATH:/home/rp/bin/dfx
+
+dfx deploy
+
+npm start
+
+npm i webpack-cli@4.10.0
+ dfx start
+echo "${PATH//:$'\n'}"
+
+dfx new dbank
+
+
+ explorer.exe .
+
+
+
+
+
+
+
+
+
+
+
+
+
+dfx start
+dfx deploy
+dfx canister call dbank topUp
+dfx canister id __Candid_UI
+sudo apt update
+sudo apt install ntp
+sudo systemctl start ntp
